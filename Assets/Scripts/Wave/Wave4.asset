@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 89066600a525a1641a27105b8d081337, type: 3}
+  m_Name: Wave4
+  m_EditorClassIdentifier: Assembly-CSharp:WaveLogique:Wave_SO
+  spawnInterval: 0.5
+  waveComponentList:
+  - ennemy_pf: {fileID: 2583643102876758905, guid: b55799c7cf5857e44b7a9571455e7564, type: 3}
+    weight: 50
+  - ennemy_pf: {fileID: 3901970304533784917, guid: 566029bc2671ccd4f94c6801190542e4, type: 3}
+    weight: 15
+  - ennemy_pf: {fileID: 471597777950174855, guid: f70da271e44b4a4478726c2f2253f7fb, type: 3}
+    weight: 34
+  - ennemy_pf: {fileID: 4209274592397432240, guid: 37bdafa785f694e4cb1963b3ef7aba5b, type: 3}
+    weight: 1

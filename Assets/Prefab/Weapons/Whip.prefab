@@ -1,0 +1,62 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &5143929290130838553
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4545490864663737040}
+  - component: {fileID: 7953661427862031396}
+  m_Layer: 0
+  m_Name: Whip
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4545490864663737040
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5143929290130838553}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &7953661427862031396
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5143929290130838553}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d99fe897c7fb47147ae5a67b91b32b3c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  weaponPrefab: {fileID: 5143929290130838553}
+  weaponIcone: {fileID: 21300000, guid: 8e13df6b33a5db84b8d11d436649511d, type: 3}
+  weaponShopDescription: Attacks horizontally, passes through enemies.
+  weaponBaseStats:
+    damage: 15
+    delay: 3
+    area: 5
+    duration: 0
+    pierce: 0
+    speed: 1
+    amount: 1
+    projectileInterval: 0.2
+  upgradeInfo: {fileID: 11400000, guid: 9ef7e378321776a479cc40db1cece197, type: 2}
+  animationGameobject_pf: {fileID: 390491205318912171, guid: 537e918cf8055df4c8dfb9e3c619ba64, type: 3}
+  playerDistance: 0.6
+  heightSpace: 0.25
